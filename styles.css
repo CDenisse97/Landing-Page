@@ -1,0 +1,120 @@
+/*GENERAL STYLES*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+
+:root{
+    --list-text-bg: #64607D;
+    --btn-bg: #457B9D;
+    --headings-color: #1D3557;
+    --imperial-red: #E63946;
+    --btn-bg-hover: #5da1cc;
+}
+
+ul,
+nav {
+  list-style: none;
+}
+
+.btn{
+    padding: 0.5rem 0.75rem;
+    font-size: 1.2rem;
+}
+
+/* NAV BAR*/
+
+.navbar {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 15px 80px 0;
+  }
+  
+  .brand-title {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+  
+  .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    list-style: none;
+  }
+  
+  .navbar-links li a {
+    padding: 1.5rem;
+    display: block;
+  }
+  
+  /* Toggle */
+  .toggle-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+/* /.NAV BAR */
+
+
+
+/* HERO SECTION*/
+
+
+
+
+
+/* /.HERO SECTION */
+
+/* ABOUT */
+
+/* ABOUT */
+
+/* HOW DOES IT WORK? */
+
+/* HOW DOES IT WORK */
+
+/* FOR BUSINESS */
+
+/* FOR BUSINESS */
+
+/* FEATURES THAT BLOWS MIND */
+
+/* FEATURES THAT BLOWS MIND */
+
+
+/* BANNER */
+
+/* BANNER */
+
+
+
+/* FOOTER */
+
+
+/* FOOTER */
