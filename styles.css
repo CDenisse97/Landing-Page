@@ -97,7 +97,9 @@ line-height: 1.4;
   }
   
   .brand-title {
-    font-size: 1.5rem;
+    font-size: 30px;
+    font-family: Roboto-Bold;
+    color: #000;
     margin: 0.5rem;
   }
   
