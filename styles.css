@@ -437,11 +437,127 @@ nav {
 
 /* BANNER */
 
+.banner{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--headings-color);
+  padding: 30px;
+  margin: 30px;
+  border-radius: 10px;
+  gap: 100px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80vw;
+  margin-bottom: 50px;
+}
+
+.banner-heading{
+  color: #fff;
+  font-family: Roboto-Bold;
+  font-size: 3.5em;
+  padding: 20px;
+  width: 50vw;
+}
 /* BANNER */
 
 
 
 /* FOOTER */
 
+.footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.startup-name{
+font-family: Roboto-Regular;
+}
+
+.startup-name, .company-heading, .legal-heading, .contact-heading{
+  font-size: 22px;
+  color: var(--headings-color);
+  padding-bottom: 30px;
+}
+
+.company-heading, .legal-heading, .contact-heading{
+  font-family: Roboto-Bold;
+}
+
+.footer li{
+  padding-bottom: 10px;
+}
+.footer li a{
+  font-family: Roboto-Regular;
+  color: var(--headings-color);
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.btn-send {
+  display: inline-block;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+}
+.btn--primary {
+  background: var(--btn-bg);
+  color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 12px 36px;
+}
+.btn--primary:hover {
+  background: var(--btn-bg-hover);
+}
+.btn--primary:active {
+  background: var(--btn-bg-hover);
+  box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+.btn--inside {
+  margin-left: -96px;
+}
+
+.form__field {
+  width: 360px;
+  background: #fff;
+  color: #a3a3a3;
+  font-family: Roboto-Regular;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: 0;
+  padding: 22px 18px;
+}
+
 
 /* FOOTER */
+
+.copyrigth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto-Medium;
+  font-size: 21px;
+  gap: 10px;
+  width: 100%;
+  color: var(--headings-color);
+  padding: 40px;
+}
+
+.fa-github {
+  font-size: 34px;
+  color: var(--headings-color);
+  transition: transform 0.3s ease-in-out;
+}
+.fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
+}
