@@ -57,8 +57,30 @@ nav {
 }
 
 .btn{
-    padding: 0.5rem 0.75rem;
-    font-size: 1.2rem;
+  padding: 12px 15px;
+  background-color: var(--btn-bg);
+  color:#fff;
+  border-style: none;
+  border-radius: 20px;
+  font-family: Roboto-Regular;
+  font-size: 18px;
+}
+
+.btn:hover{
+background-color: var(--btn-bg-hover);
+}
+
+.heading{
+font-family: Roboto-Bold;
+color: var(--headings-color);
+font-size: 40px;
+}
+
+.description{
+font-family: Roboto-Light;
+color: var(--normal-text);
+font-size: 20px;
+line-height: 1.4;
 }
 
 /* NAV BAR*/
