@@ -240,7 +240,51 @@ nav {
 /* /.HERO SECTION */
 
 /* ABOUT */
+.about{
+  display: flex;
+  gap: 50px;
+  padding-bottom: 30px;
+}
 
+.about-description{
+  padding-right: 140px;
+}
+
+.about-img img{
+  margin: 10px 10px 10px 60px;
+  height: 549px;
+  width: 558px;
+}
+
+.about-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:30px;
+  padding-left: 80px;
+  padding-right: 95px;
+}
+
+
+.about-features{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: var(--list-text-bg);
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  list-style: none;
+}
+.about-features img{
+  width: 36px;
+  height: auto;
+}
+
+.about-feature--container{
+  display: flex;
+  gap:10px;
+  align-items: center;
+}
 /* ABOUT */
 
 /* HOW DOES IT WORK? */
