@@ -244,7 +244,80 @@ nav {
 /* ABOUT */
 
 /* HOW DOES IT WORK? */
+.hiw{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
 
+.hiw-text{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hiw-steps{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 40px;
+}
+
+.hiw-steps .step-card{
+  border: 2px solid var(--list-text-bg);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  padding-top: 0px;
+  max-width: 400px;
+  max-height: 470px;
+}
+
+
+.hiw-steps img{
+  width: 228px;
+  height: auto;
+}
+
+.step-card .step-card-heading{
+  font-family: Roboto-Medium;
+  color: var(--normal-text);
+  font-size: 26px;
+  line-height: 1.4;
+  padding-bottom: 20px;
+}
+
+.step-card .step-number{
+  color: var(--imperial-red);
+  font-family: Roboto-Bold;
+  font-size: 20px;
+}
+
+
+
+.step-card .step-card-text{
+  font-family: Roboto-Thin;
+  font-size: 18px;
+  font-weight: 300;
+  padding:20px;
+}
+
+.step-card.step-3 img{
+  width: 248px;
+  height: 215px;
+}
+
+.step-card .step-card-imgs{
+  display: flex;
+  justify-content: space-between;
+  padding: 55px;
+  padding-top: 20px;
+  padding-left: 0px;
+}
 /* HOW DOES IT WORK */
 
 /* FOR BUSINESS */
