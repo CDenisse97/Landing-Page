@@ -248,7 +248,34 @@ nav {
 /* HOW DOES IT WORK */
 
 /* FOR BUSINESS */
+.for-business{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
 
+.fb-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 220px;
+  padding-right: 80px;
+}
+
+.fb-button{
+  padding-left: 100px;
+}
+.fb-review img{
+  width: 450px;
+  height: auto;
+}
+
+.fb-img img{
+  margin: 10px 100px 10px 0px;
+  height: 549px;
+  width: 558px;
+}
 /* FOR BUSINESS */
 
 /* FEATURES THAT BLOWS MIND */
