@@ -9,6 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="shortcut icon" href="assets/icon/favicon.ico" />
+    <script src="script.js" defer></script>
     <link href="styles.css" rel="stylesheet" />
     <title>Mecanillama</title>
   </head>
@@ -16,7 +17,7 @@
   <header class="header">
     <nav class="navbar">
       <div class="brand-title">
-        <a href="#">MECANILLAMA</a>
+        <a class="navbar-brand" href="#">MECANILLAMA</a>
       </div>
       <a href="#" class="toggle-button">
         <span class="bar"></span>
@@ -25,10 +26,10 @@
       </a>
       <div class="navbar-links">
         <ul>
-          <li><a href="#hero">About</a></li>
-          <li><a href="#knowledge_hub">How does it work?</a></li>
-          <li><a href="#visitantes">For business</a></li>
-          <li><a href="#education">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#hiw">How does it work?</a></li>
+          <li><a href="#fb">For business</a></li>
+          <li><a href="#feat">Features</a></li>
         </ul>
       </div>
       <div class="navbar-buttons">
@@ -40,7 +41,7 @@
   <!-- /.NAV BAR-->
   <body>
     <!-- HERO SECTION-->
-    <div class="hero">
+    <div class="hero" id="hero">
       <div class="hero-text">
         <div class="hero-heading">
           Llevar el coche a un taller nunca fue tan sencillo
@@ -80,7 +81,7 @@
     <!-- /.HERO SECTION-->
 
     <!-- ABOUT-->
-    <div class="about">
+    <div class="about" id="about">
       <div class="about-img">
         <img src="assets/images/about.jfif" alt="Woman sitting over a car" />
       </div>
@@ -114,7 +115,7 @@
     <!--/. ABOUT-->
 
     <!-- HOW DOES IT WORK?-->
-    <div class="hiw">
+    <div class="hiw" id="hiw">
       <div class="hiw-text">
         <div class="hiw-heading heading">How does it work?</div>
         <div class="hiw-description description">
@@ -162,7 +163,7 @@
     <!--/. HOW DOES IT WORK-->
 
     <!-- FOR BUSINESS-->
-    <div class="for-business">
+    <div class="for-business" id="fb">
       <div class="fb-text">
         <div class="fb-heading heading">For business</div>
         <div class="fb-description description">
@@ -184,7 +185,7 @@
     <!--/. FOR BUSINESS-->
 
     <!-- FEATURES THAT BLOWS MIND-->
-    <div class="main-features">
+    <div class="main-features" id="feat">
       <div class="main-features--text">
         <div class="main-features-heading heading">
           Features that blow minds
@@ -258,19 +259,19 @@
         <div class="company-heading">Company</div>
         <div class="company-list">
           <ul>
-            <li><a href="#hero">About us</a></li>
-            <li><a href="#knowledge_hub">Careers</a></li>
-            <li><a href="#visitantes">Blog</a></li>
-            <li><a href="#education">Pricing</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
           </ul>
         </div>
       </div>
       <div class="legal">
-        <div class="legal-heading">Legal</div>
+        <div class="legal-heading">Social</div>
         <div class="legal-list">
           <ul>
-            <li><a href="#hero">Terminos</a></li>
-            <li><a href="#knowledge_hub">Privacidad</a></li>
+            <li><a href="#hero">Instagram</a></li>
+            <li><a href="#knowledge_hub">Linkedin</a></li>
           </ul>
         </div>
       </div>
