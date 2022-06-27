@@ -794,3 +794,10 @@ font-family: Roboto-Regular;
     width: 100%;
   }
 }
+
+#cajon1{
+  float: left;
+}
+#cajon2{
+  float: left;
+}
